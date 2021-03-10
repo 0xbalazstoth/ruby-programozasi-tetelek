@@ -1,2 +1,1 @@
-# ruby-programozasi-tetelek
-Programozási tételek Ruby nyelven
+# Programozási tételek Ruby nyelven
