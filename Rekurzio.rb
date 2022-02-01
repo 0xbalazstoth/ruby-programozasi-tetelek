@@ -25,7 +25,7 @@ def Faktorialis(n)
     end
 end
 
-def _Faktorialis()
+def _Faktorialis
     n = 4
     fakt = Faktorialis(n) #4 * 3 * 2 * 1 = 24
     puts "Faktoriális rekurzívan: "
@@ -48,7 +48,7 @@ def Fibonacci(n)
     end
 end
 
-def _Fibonacci()
+def _Fibonacci
     n = 6
     fibonacci = Fibonacci(n)
     puts "\nFibonacci számok rekurzívan: "
@@ -77,7 +77,7 @@ def Hatvanyozas(a, b)
     end
 end
 
-def _Hatvanyozas()
+def _Hatvanyozas
     a = 3
     n = 7
     hatvany = Hatvanyozas(a, n)
@@ -105,7 +105,7 @@ def HanoiTornyai(n, forras, cel, seged)
     end
 end
 
-def _HanoiTornyai()
+def _HanoiTornyai
     HanoiTornyai(4, 'A', 'C', 'B')
 end
 
@@ -126,7 +126,7 @@ def Sorozatszamitas(x, jobb)
     end
 end
 
-def _Sorozatszamitas()
+def _Sorozatszamitas
     x = [5, 6, 10, 5, 10]
     n = x.length
     sum = Sorozatszamitas(x, n)
@@ -158,7 +158,7 @@ def LinearisKereses(x, bal, n)
     end
 end
 
-def _LinearisKereses()
+def _LinearisKereses
     x = [3, 9, 4, 1, 8]
     n = x.length - 1
     bal = 0
@@ -200,7 +200,7 @@ def LogaritmikusKereses(x, bal, jobb, k)
     end
 end
 
-def _LogaritmikusKereses()
+def _LogaritmikusKereses
     x = [5, 7, 9, 11, 44]
     bal = 0
     jobb = x.length - 1
@@ -234,7 +234,7 @@ def Megszamlalas(x, jobb)
     end
 end
 
-def _Megszamlalas()
+def _Megszamlalas
     x = [4, 7, 9, 10, 6]
     jobb = x.length
     db = Megszamlalas(x, jobb)
@@ -267,7 +267,7 @@ def Maximumkivalasztas(x, jobb)
     end
 end
 
-def _Maximumkivalasztas()
+def _Maximumkivalasztas
     x = [2, 1, 6, 5, 8, 3]
     jobb = x.length - 1
     max = Maximumkivalasztas(x, jobb)

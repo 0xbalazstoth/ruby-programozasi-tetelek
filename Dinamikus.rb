@@ -37,7 +37,7 @@ def Hatizsak(p, w, n, c)
     {_F: _F, max: _F[n][c]}
 end
 
-def _Hatizsak()
+def _Hatizsak
     w = [10, 20, 30]
     p = [60, 100, 120]
     c = 50
@@ -76,7 +76,7 @@ def Kiolvasas(_F, n, c, w)
     s
 end
 
-def _Kiolvasas()
+def _Kiolvasas
     w = [10, 20, 30]
     p = [60, 100, 120]
     c = 50
@@ -121,7 +121,7 @@ def LKRHossza(x, n, y, m)
     {_F: _F, hossz: _F[n][m]}
 end
 
-def _LKRHossza()
+def _LKRHossza
     x = [ 'C', 'A', 'L', 'E', 'N', 'D', 'A', 'R' ]
     y = [ 'C', 'A', 'L', 'L', 'C', 'E', 'N', 'T', 'E', 'R' ]
     n = x.length
@@ -179,7 +179,7 @@ def LKREloallitasa(_F, x, n, y, m)
     s
 end
 
-def _LKREloallitasa()
+def _LKREloallitasa
     x = [ 'C', 'A', 'L', 'E', 'N', 'D', 'A', 'R' ]
     y = [ 'C', 'A', 'L', 'L', 'C', 'E', 'N', 'T', 'E', 'R' ]
     n = x.length
@@ -227,7 +227,7 @@ def KincsGyujtes(_C, m, n)
     _P
 end
 
-def _KincsGyujtes()
+def _KincsGyujtes
     _C = [[ 1, 8, 3, 5, 6], [ 4, 2, 1, 2, 4], [ 3, 4, 1, 4, 3], [ 6, 0, 5, 4, 6], [ 9, 1, 8, 1, 1]] #[[1, 3, 4, 8], [6, 10, 20, 9], [11, 2, 15, 1], [1, 5, 3, 6 ]]
     m = 5
     n = 5
@@ -282,7 +282,7 @@ def BejarasiUtKiolvasasa(_F, m, n)
     {_P: _P, osszegyujtott: _P[n + m]}
 end
 
-def _BejarasiUtKiolvasasa()
+def _BejarasiUtKiolvasasa
     _C = [[ 1, 8, 3, 5, 6], [ 4, 2, 1, 2, 4], [ 3, 4, 1, 4, 3], [ 6, 0, 5, 4, 6], [ 9, 1, 8, 1, 1]] #[[1, 3, 4, 8], [6, 10, 20, 9], [11, 2, 15, 1], [1, 5, 3, 6 ]]
     m = 5
     n = 5

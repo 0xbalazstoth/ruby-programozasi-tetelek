@@ -30,7 +30,7 @@ def FelezoMax(x, bal, jobb)
     end
 end
 
-def _FelezoMax()
+def _FelezoMax
     x = [2, 1, 6, 5, 8, 30]
     bal = 0
     jobb = x.length - 1
@@ -91,7 +91,7 @@ def OsszefesuloRendezes(x, bal, jobb)
     end
 end
 
-def _OsszefesuloRendezes()
+def _OsszefesuloRendezes
     x = [9, 3, 7, 5, 6, 4, 8, 2]
     bal = 0
     jobb = x.length - 1
@@ -149,7 +149,7 @@ def Gyorsrendezes(x, bal, jobb)
     end
 end
 
-def _Gyorsrendezes()
+def _Gyorsrendezes
     x = [3, 2, 1, 4, 8, 6, 12, 10, 7, 9, 5, 14, 13, 11]
     bal = 0
     jobb = x.length - 1
@@ -185,7 +185,7 @@ def KAdikLegkisebbElemKivalasztasa(x, bal, jobb, k)
     end
 end
 
-def _KAdikLegkisebbElemKivalasztasa()
+def _KAdikLegkisebbElemKivalasztasa
     x = [3, 2, 1, 4, 8, 6, 12, 10, 7, 9, 5, 14, 13, 11]
     bal = 0
     jobb = x.length - 1

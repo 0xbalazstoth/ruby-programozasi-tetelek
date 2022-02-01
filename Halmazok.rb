@@ -13,7 +13,7 @@ def HalmaztulajdonsagVizsgalata(x, n)
     halmaz_e
 end
 
-def _HalmaztulajdonsagVizsgalata()
+def _HalmaztulajdonsagVizsgalata
     x = [5, 6, 7, 12, 43]
     n = x.length - 1
     halmaz_e = HalmaztulajdonsagVizsgalata(x, n)
@@ -46,7 +46,7 @@ def HalmazLetrehozasa(x, n)
     {a: a, db: db}
 end
 
-def _HalmazLetrehozasa()
+def _HalmazLetrehozasa
     x = [5, 8, 8, 8, 56, 56, 300, 401, 401]
     n = x.length - 1
     a = HalmazLetrehozasa(x, n).fetch(:a)
@@ -86,7 +86,7 @@ def TartalmazasVizsgalat(x, n, k)
     tartalmazza_e
 end
 
-def _TartalmazasVizsgalat()
+def _TartalmazasVizsgalat
     x = [5, 7, 9, 88, 344]
     n = x.length - 1
     tartalmazza_e = TartalmazasVizsgalat(x, n, 880)
@@ -118,7 +118,7 @@ def ReszhalmazVizsgalat(a, m, b, n)
     reszhalmaz_e
 end
 
-def _ReszhalmazVizsgalat()
+def _ReszhalmazVizsgalat
     a = [1, 3, 5]
     m = a.length - 1
 
@@ -183,7 +183,7 @@ def Unio(a1, n1, a2, n2)
     {b: b, db: db}
 end
 
-def _Unio()
+def _Unio
     a1 = [2, 3, 4, 5, 8]
     n1 = a1.length - 1
 
@@ -235,7 +235,7 @@ def Metszet(a1, n1, a2, n2)
     {b: b, db: db}
 end
 
-def _Metszet()
+def _Metszet
     a1 = [2, 3, 4, 5, 8, 9]
     n1 = a1.length - 1
 
@@ -297,7 +297,7 @@ def HalmazokKulonbsege(a1, n1, a2, n2)
     {b: b, db: db}
 end
 
-def _HalmazokKulonbsege()
+def _HalmazokKulonbsege
     a1 = [2, 3, 4, 5, 8]
     n1 = a1.length - 1
 
@@ -372,7 +372,7 @@ def HalmazokSzimmetrikusKulonbsege(a1, n1, a2, n2)
     {b: b, db: db}
 end
 
-def _HalmazokSzimmetrikusKulonbsege()
+def _HalmazokSzimmetrikusKulonbsege
     a1 = [2, 3, 4, 5, 8]
     n1 = a1.length - 1
 

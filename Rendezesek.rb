@@ -15,7 +15,7 @@ def CseresRendezes(x, n)
     end
 end
 
-def _CseresRendezes()
+def _CseresRendezes
     x = [5, 1, 2, 7, 9, -12]
     n = x.length - 1
 
@@ -50,7 +50,7 @@ def MinimumkivalasztasosRendezes(x, n)
     end
 end
 
-def _MinimumkivalasztasosRendezes()
+def _MinimumkivalasztasosRendezes
     x = [4, 3, 8, 6, 1]
     n = x.length - 1
 
@@ -88,7 +88,7 @@ def Buborekrendezes(x, n)
     end
 end
 
-def _Buborekrendezes()
+def _Buborekrendezes
     x = [5, 3, -21, 4323, 1]
     n = x.length - 1
     Buborekrendezes(x, n)
@@ -124,7 +124,7 @@ def JavitottBuborekrendezes(x, n)
     end
 end
 
-def _JavitottBuborekrendezes()
+def _JavitottBuborekrendezes
     x = [5, 6, 12, -12, 4]
     n = x.length - 1
     JavitottBuborekrendezes(x, n)
@@ -154,7 +154,7 @@ def Beillesztesesrendezes(x, n)
     end
 end
 
-def _Beillesztesesrendezes()
+def _Beillesztesesrendezes
     x = [54, 23, -12, 1, 6]
     n = x.length - 1
     Beillesztesesrendezes(x, n)
@@ -185,7 +185,7 @@ def JavitottBeillesztesesrendezes(x, n)
     end
 end
 
-def _JavitottBeillesztesesrendezes()
+def _JavitottBeillesztesesrendezes
     x = [4, 2, 7, 10]
     n = x.length - 1
     JavitottBeillesztesesrendezes(x, n)

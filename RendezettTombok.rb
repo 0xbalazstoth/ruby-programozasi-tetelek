@@ -19,7 +19,7 @@ def LinearisKereses(x, n, k)
     end
 end
 
-def _LinearisKereses()
+def _LinearisKereses
     x = [1, 5, 8, 9, 12]
     n = x.length - 1
     van = LinearisKereses(x, n, 9).fetch(:van)
@@ -66,7 +66,7 @@ def LogaritmikusKereses(x, n, k)
     end
 end
 
-def _LogaritmikusKereses()
+def _LogaritmikusKereses
     x = [2, 5, 7, 9, 12]
     n = x.length - 1
     van = LogaritmikusKereses(x, n, 7).fetch(:van)
@@ -111,7 +111,7 @@ def Eldontes(x, n, k)
     end
 end
 
-def _Eldontes()
+def _Eldontes
     x = [5, 7, 9, 10, 123, 566]
     n = x.length - 1
     van = Eldontes(x, n, 10)
@@ -149,7 +149,7 @@ def Kivalasztas(x, n, k)
     idx
 end
 
-def _Kivalasztas()
+def _Kivalasztas
     x = [4, 6, 7, 8, 12]
     n = x.length - 1
     idx = Kivalasztas(x, n, 8)
@@ -207,7 +207,7 @@ def Kivalogatas(x, n, k)
     end
 end
 
-def _Kivalogatas()
+def _Kivalogatas
     x = [5, 12, 34, 56]
     n = x.length - 1
     van = Kivalogatas(x, n, 34).fetch(:van)
@@ -271,7 +271,7 @@ def Megszamlalas(x, n, k)
     db
 end
 
-def _Megszamlalas()
+def _Megszamlalas
     x = [34, 124, 555, 555, 666769]
     n = x.length - 1
     db = Megszamlalas(x, n, 555)

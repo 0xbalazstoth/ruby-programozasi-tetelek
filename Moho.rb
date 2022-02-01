@@ -48,7 +48,7 @@ def Hatizsak(p, w, n, c)
     {s: s, ertek: ertek, suly: suly} 
 end
 
-def _Hatizsak()
+def _Hatizsak
     w = [10, 20, 30]
     p = [60, 100, 120]
     c = 50
@@ -92,7 +92,7 @@ def Penzkifizetes(x, c, n)
     db
 end
 
-def _Penzkifizetes()
+def _Penzkifizetes
   x = 79485
   c = [5, 10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000, 20000]
   n = c.length - 1
@@ -146,7 +146,7 @@ def KincsGyujtes(_C, m, n)
   _P
 end
 
-def _KincsGyujtes()
+def _KincsGyujtes
   _C = [[1, 3, 4, 8], [6, 10, 20, 9], [11, 2, 15, 1], [1, 5, 3, 6 ]]
   m = 4
   n = 4
