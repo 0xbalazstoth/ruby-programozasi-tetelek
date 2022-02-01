@@ -17,7 +17,7 @@ def MasolasSorozatszamitas(x, n)
     ertek
 end
 
-def _MasolasSorozatszamitas()
+def _MasolasSorozatszamitas
     x = [2, 4]
     n = x.length - 1
     puts "Másolás és sorozatszámítás: #{MasolasSorozatszamitas(x, n)}"
@@ -48,7 +48,7 @@ def MasolasMaximumkivalasztas(x, n)
     {max: max, maxertek: maxertek}
 end
 
-def _MasolasMaximumkivalasztas()
+def _MasolasMaximumkivalasztas
     x = [2, 6, -9, 12, -123]
     n = x.length - 1
     max = MasolasMaximumkivalasztas(x, n).fetch(:max)
@@ -89,7 +89,7 @@ def MegszamolasKereses(x, n, k)
     end
 end
 
-def _MegszamolasKereses()
+def _MegszamolasKereses
     x = [1, 5, 1, 9, 43, 6, 10, 2]
     n = x.length - 1
     k = 1
@@ -138,7 +138,7 @@ def MaximumkivalasztasKivalogatas(x, n)
     {db: db, y: y, maxertek: maxertek}
 end
 
-def _MaximumkivalasztasKivalogatas()
+def _MaximumkivalasztasKivalogatas
     x = [2, 5, 8, 9, 10, 10]
     n = x.length - 1
     db = MaximumkivalasztasKivalogatas(x, n).fetch(:db)
@@ -170,7 +170,7 @@ def KivalogatasSorozatszamitas(x, n)
     ertek
 end
 
-def _KivalogatasSorozatszamitas()
+def _KivalogatasSorozatszamitas
     x = [3, 6, 1, 8, 4]
     n = x.length - 1
     puts "\nKiválogatás és sorozatszámítás: "
@@ -205,7 +205,7 @@ def KivalogatasMaximumkivalasztas(x, n)
     end
 end
 
-def _KivalogatasMaximumkivalasztas()
+def _KivalogatasMaximumkivalasztas
     x = [2, 7, 4, 7, 7, 3, 7, 8, 1, 6, 7, 8, 8, 3, 7, 9, 8, 9, 80]
     n = x.length - 1
     van = KivalogatasMaximumkivalasztas(x, n).fetch(:van)

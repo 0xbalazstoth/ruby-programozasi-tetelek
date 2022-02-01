@@ -16,7 +16,7 @@ def Masolas(x, n)
     y
 end
 
-def _Masolas()
+def _Masolas
     x = [5, 6, -7]
     n = x.length - 1
     puts "Másolás: #{Masolas(x, n)}"
@@ -45,7 +45,7 @@ def Kivalogatas(x, n)
     {y: y, db: db}
 end
 
-def _Kivalogatas()
+def _Kivalogatas
     x = [1, 4, 3, 2, 6, 8, 9, 10]
     n = x.length - 1
     puts "Kiválogatás: #{Kivalogatas(x, n)}"
@@ -70,7 +70,7 @@ def KivalogatasEredeti(x, n)
     db
 end
 
-def _KivalogatasEredeti()
+def _KivalogatasEredeti
     x = [2, 6, 9, 2, 4]
     n = x.length - 1
     
@@ -104,7 +104,7 @@ def KivalogatasCsere(x, n)
     db
 end
 
-def _KivalogatasCsere()
+def _KivalogatasCsere
     x = [2, 6, 8, 12, 5, 3, 2]
     n = x.length - 1
     db = KivalogatasCsere(x, n)
@@ -144,7 +144,7 @@ def Szetvalogatas(x, n)
     {y1: y1, db1: db1, y2: y2, db2: db2}
 end
 
-def _Szetvalogatas()
+def _Szetvalogatas
     x = [2, 6, 9, 8, 1]
     n = x.length - 1
     puts "\nSzétválogatás: "
@@ -190,7 +190,7 @@ def SzetvalogatasEgy(x, n)
     {y: y, db: db}
 end
 
-def _SzetvalogatasEgy()
+def _SzetvalogatasEgy
     x = [4, 1, 3, 8, 2, 7]
     n = x.length - 1
     #db = SzetvalogatasEgy(x, n).fetch(:db)
@@ -252,7 +252,7 @@ def SzetvalogatasHelyben(x, n)
     db
 end
 
-def _SzetvalogatasHelyben()
+def _SzetvalogatasHelyben
     x = [2, 6, 7, 20, 12, 1]
     n = x.length - 1
     SzetvalogatasHelyben(x, n)
@@ -291,7 +291,7 @@ def Metszet(x1, n1, x2, n2)
     {y: y, db: db}
 end
 
-def _Metszet()
+def _Metszet
     x1 = [3, 2, 1, 3]
     n1 = x1.length - 1
 
@@ -340,7 +340,7 @@ def Unio(x1, n1, x2, n2)
     {y: y, db: db}
 end
 
-def _Unio()
+def _Unio
     x1 = [1, 6, 7, 8, 10]
     n1 = x1.length - 1
 
@@ -417,7 +417,7 @@ def Osszefuttatas(x1, n1, x2, n2)
     {y: y, db: db}
 end
 
-def _Osszefuttatas()
+def _Osszefuttatas
     x1 = [2, 3, 5, 8]
     n1 = x1.length
 

@@ -12,7 +12,7 @@ def Sorozatszamitas(x, n)
     ertek
 end
 
-def _Sorozatszamitas()
+def _Sorozatszamitas
     x = [2, 2, 3]
     n = x.length
 
@@ -37,7 +37,7 @@ def Eldontes(x, n)
     van
 end
 
-def _Eldontes()
+def _Eldontes
     x = [1, 3, 9, 7, 8]
     n = x.length - 1
     puts "Eldöntés: #{Eldontes(x, n)}"
@@ -61,7 +61,7 @@ def ModositottEldontes(x, n)
     van
 end
 
-def _ModositottEldontes()
+def _ModositottEldontes
     x = [2, 4, 6, 8]
     n = x.length - 1
     puts "Módosított eldöntés: #{ModositottEldontes(x, n)}"
@@ -84,7 +84,7 @@ def Kivalasztas(x, n)
     van
 end
 
-def _Kivalasztas()
+def _Kivalasztas
     x = [1, 3, 7, 4]
     n = x.length - 1
     puts "Kiválasztás: #{Kivalasztas(x, n)}"
@@ -111,7 +111,7 @@ def LinearisKereses(x, n)
     end
 end
 
-def _LinearisKereses()
+def _LinearisKereses
     x = [1, 4, 5, 9, 4, 8, 10]
     n = x.length - 1
     puts "Lineáris keresés: #{LinearisKereses(x, n)}"
@@ -136,7 +136,7 @@ def Megszamlalas(x, n)
     darabszam
 end
 
-def _Megszamlalas()
+def _Megszamlalas
     x = [1, 2, 6, 7, 10]
     n = x.length - 1
     puts "Megszámlálás: #{Megszamlalas(x, n)}"
@@ -161,7 +161,7 @@ def Maximumkivalasztas(x, n)
     max
 end
 
-def _Maximumkivalasztas()
+def _Maximumkivalasztas
     x = [2, 5, 7, 9, 23]
     n = x.length - 1
     puts "Maximumkiválasztás: #{Maximumkivalasztas(x, n)}"
